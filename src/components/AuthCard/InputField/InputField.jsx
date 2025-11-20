@@ -4,6 +4,7 @@ const InputField = ({ label, name, type, value, onChange }) => {
     <div className="auth-input-wrapper">
        <input
         id={name}
+        placeholder={label}
         name={name}
         type={type}
         value={value}

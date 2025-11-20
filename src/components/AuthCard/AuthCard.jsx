@@ -67,6 +67,7 @@ const AuthCard = ({
         <h2>{title}</h2>
 
         <InputField
+          label="Email"
           name="email"
           type="email"
           value={formData.email}
@@ -74,6 +75,7 @@ const AuthCard = ({
         />
 
         <InputField
+          label="Password"
           name="password"
           type="password"
           value={formData.password}
