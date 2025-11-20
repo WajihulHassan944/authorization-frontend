@@ -1,0 +1,44 @@
+.details-page {
+  min-height: 100vh;
+  background: #f5f7fb; 
+}
+
+.details-header {
+  width: 100%;
+  background: linear-gradient(to right, #007bff, #3bb9ff);
+  padding: 18px 25px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: #fff;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.12);
+}
+
+.details-email {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.logout-btn {
+  padding: 8px 20px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1.5px solid rgba(255, 255, 255, 0.35);
+  border-radius: 20px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.25s ease;
+  backdrop-filter: blur(4px);
+}
+
+.logout-btn:hover {
+  background: rgba(255, 255, 255, 0.35);
+}
+
+.details-body {
+  padding: 30px;
+  min-height: calc(100vh - 80px);
+}
